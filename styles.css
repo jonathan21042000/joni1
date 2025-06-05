@@ -1,0 +1,65 @@
+.grillacontenedorade4partes
+{
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12% 4%;
+}
+.grillacontenedorade4
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+h1
+{
+   color: rgb(219, 255, 244);
+   font-size: 200%;
+   font-family: fantasy;
+   text-align: center;
+}
+header
+{
+    background-color: rgb(204, 48, 79);
+}
+footer
+{
+    background-color: rgb(0, 218, 11);
+}
+p.pie 
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+div.oscuro
+{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    border: 4px solid green;
+    border-radius: 10px;
+}
+div.claro
+{
+    background-color: rgb(255, 251, 0);
+    text-align: center;
+    border: 4px solid red;
+    border-radius: 10px;
+}
+h2:hover
+{
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+}
+div.oscuro:hover
+{
+    background-color: aquamarine;
+    text-align: center;
+    border: 10px solid black;
+}
+div.claro:hover
+{
+    background-color: aquamarine;
+    text-align: center;
+    border: 10px solid black;
+}
+table
+{
+    border: 1px solid;
+}
